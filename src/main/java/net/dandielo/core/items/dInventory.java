@@ -33,7 +33,6 @@ public class dInventory implements InventoryHolder {
 	}
 	
 	/* Native inventory */
-	@Override
 	public Inventory getInventory() { 
 		Inventory result = Bukkit.createInventory(this, 6 * 9);
 		return result;
